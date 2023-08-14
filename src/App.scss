@@ -40,3 +40,16 @@
     color: #ffffff;
   }
 }
+
+.boxBlock {
+  height: 120px;
+  width: 120px;
+  border: 1px solid #ccc;
+  background-color: darkslategray;
+
+  .boxValue {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+}
