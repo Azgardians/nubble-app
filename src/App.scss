@@ -1,0 +1,42 @@
+/* @import "~bootstrap/scss/bootstrap"; */
+
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.level-1 {
+  background-color: #f4b321;
+  min-height: 4.4rem;
+  width: 100vw;
+  .container1 {
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    position: absolute;
+    top: 50px;
+    left: 35vw;
+  }
+}
+
+.level-2 {
+  background-color: #73cfe8;
+  height: calc(100vh - 4.4rem);
+  width: 100vw;
+}
+
+.borderBox {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin: 0 auto;
+  border: 4px solid white;
+
+  .borderValue {
+    font-size: 24px;
+    margin: 0 auto;
+    font-weight: 600;
+    color: #ffffff;
+  }
+}
